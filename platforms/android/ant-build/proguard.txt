@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:12
+-keep class com.catchoom.craftar.CraftARCordovaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class com.catchoom.test.CordovaApp { <init>(...); }
+
+# view res/layout/craftar_camera.xml #generated:6
+-keep class com.craftar.CraftARCameraView { <init>(...); }
+

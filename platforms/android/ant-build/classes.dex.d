@@ -1,0 +1,20 @@
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes.dex : \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/R$layout.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/R$xml.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/R$attr.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/R.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/BuildConfig.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/CordovaApp.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/R$string.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/R$drawable.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/test/R$id.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/craftar/CraftARCordovaActivity.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/craftar/CraftARJSInterface.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/craftar/FakeR.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/craftar/CraftARPlugin.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/classes/com/catchoom/craftar/CraftARIntent.class \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/dexedLibs/classes-66355f5cb31c2cf1c9c9696bb7c0ed02.jar \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/dexedLibs/sanselan-0.97-incubator-d63f568dd5b31778eed99df2a03a6781.jar \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/dexedLibs/android-tracking-sdk-37940ab2ae8e98ebf0ad534ba4b1f19b.jar \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/dexedLibs/android-support-v4-7d4410146e3ed6d0383b1854a6fddc8e.jar \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/ant-build/dexedLibs/ofandroidlib-82f11a4a7c2212a8e0ed543794a6c24d.jar \
