@@ -1,0 +1,20 @@
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes.dex : \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/R$layout.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/R$xml.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/R$attr.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/R.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/BuildConfig.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/CordovaApp.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/R$string.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/R$drawable.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/test/R$id.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/craftar/CraftARCordovaActivity.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/craftar/CraftARJSInterface.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/craftar/FakeR.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/craftar/CraftARPlugin.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/classes/com/catchoom/craftar/CraftARIntent.class \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/dexedLibs/classes-84ca8a1392adc654faea658d4deea6fa.jar \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/dexedLibs/sanselan-0.97-incubator-de2b2d603815ce2b10a3e0a900eac01f.jar \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/dexedLibs/android-tracking-sdk-c5ed380141bdb048aa89234d317ceeb4.jar \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/dexedLibs/android-support-v4-96b2c154d6732940e162fbbc0d3a9a5e.jar \
+/home/skippy/Documents/Work/CraftARCordovaTest/platforms/android/ant-build/dexedLibs/ofandroidlib-a495d59c23cfc7b32c78210c911d39c0.jar \
