@@ -63,6 +63,7 @@
 /home/skippy/Documents/Work/ARCordova (copy)/platforms/android/assets/www/logo.png \
 /home/skippy/Documents/Work/ARCordova (copy)/platforms/android/assets/www/cordova.js \
 /home/skippy/Documents/Work/ARCordova (copy)/platforms/android/assets/www/libs \
+/home/skippy/Documents/Work/ARCordova (copy)/platforms/android/assets/www/vibrints-logo.png \
 /home/skippy/Documents/Work/ARCordova (copy)/platforms/android/assets/www/index.html \
 /home/skippy/Documents/Work/ARCordova (copy)/platforms/android/assets/www/css \
 /home/skippy/Documents/Work/ARCordova (copy)/platforms/android/assets/www/img/logo.png \

@@ -10,21 +10,20 @@
         <script src="CraftARView.js"></script>
     <script
 		<script>
-				var finding = true;
+				var finding = false;
 				var autoar = false;
 				var arobject = 0;
 
 
-				function onLoad()
-				{
-                    //alert("Device Load");
+				function onLoad(){
 				   document.addEventListener("deviceready", onDeviceReady, false);
-                }
+         }
 
    			 	function onDeviceReady() {
    			 		window.craftarjs.setToken("491e0ef5af504aa0");
             if(finding == true){
               window.craftarjs.startFinding();
+              ARFound();
             }
    			 		updateStats();
 
@@ -34,8 +33,7 @@
 					alert("Got error response (" + error.code + "): " + error.message);
 				}
 
-				function searchCompletedIR(items)
-				{
+				function searchCompletedIR(items){
 				  if(items.length>0) {
 				     arobject = 2;
 				     updateStats();
@@ -46,116 +44,67 @@
 				    updateStats();
 				}
 
-				function requestFailedResponse(code, err)
-				{
-				  //alert("requestFailedResponse Error: "+ code + " " + err);
+				function requestFailedResponse(code, err){
+				  alert("requestFailedResponse Error: "+ code + " " + err);
 				}
 
-				function requestImageError(err)
-				{
+				function requestImageError(err){
 				  alert("requestImageError Error: " + err);
 				}
 
-				function ARFound()
-				{
+				function ARFound(){
 				  arobject = 2;
 				  finding = false;
-          // alert("Image Found");
 				  updateStats();
 				}
 
-				function updateStats()
-				{
-					if (finding){
-						$("#findingstatus").html("Finding: On");
-						$("#findingstatus").css("background-color", "#009900");
-					}
-					else {
-						$("#findingstatus").html("Finding: Off");
-						$("#findingstatus").css("background-color", "#990000");
-					}
-					if (autoar){
-						$("#armode").html("Auto AR: On");
-						$("#armode").css("background-color", "#009900");
-					}
-					else {
-						$("#armode").html("Auto AR: Off");
-						$("#armode").css("background-color", "#990000");
-					}
-				    switch (arobject)
-				    {
-				      case 0:
-				        $("#picture").html("Image not found");
-						$("#picture").css("background-color", "#990000");
-						break;
-					  case 1:
-					    $("#picture").html("Searching...");
-						$("#picture").css("background-color", "#990000");
-					    break;
-					  case 2:
-					    $("#picture").html("Image Found");
-						$("#picture").css("background-color", "#009900");
-						break;
-					}
+				function updateStats(){
+          if(finding == true){
+            ARFound();
+            $("#startFinding").hide();
+          }
+          else{
+            $("#startFinding").show();
+          }
 				}
 
 
-				$(function()  {
-
-				$("#startFinding").on("click", function() {
+				$(function(){
+          $("#startFinding").on("click", function() {
 					window.craftarjs.startFinding();
-
+          window.craftarjs.setToken("491e0ef5af504aa0");
 					finding = true;
 					updateStats();
 				});
 
-				$("#stopFinding").on("click", function() {
-					window.craftarjs.stopFinding();
+				// $("#takepicture").on("click", function() {
+				//     window.craftarjs.takePictureAndSearch();
+				//     arobject = 1;
+				//     updateStats();
+				// });
 
-					finding = false;
-					updateStats();
-				});
+				// $("#restartCamera").on("click", function() {
+				//     window.craftarjs.restartCamera();
+				// });
 
-				$("#takepicture").on("click", function() {
-				    window.craftarjs.takePictureAndSearch();
-
-				    arobject = 1;
-				    updateStats();
-				});
-
-				$("#restartCamera").on("click", function() {
-				    window.craftarjs.restartCamera();
-
-				});
-
-				$("#triggerFocus").on("click", function() {
-				    window.craftarjs.triggerFocus();
-				});
+				// $("#triggerFocus").on("click", function() {
+				//     window.craftarjs.triggerFocus();
+				// });
 
 				$("#setToken").on("click", function() {
 				    window.craftarjs.setToken("491e0ef5af504aa0");
-
 				});
 
 
 				$("#close").on("click", function() {
 				    window.craftarjs.close();
-
 				});
 
-				$("#modearauto").on("click", function() {
-					autoar = !autoar;
-				    window.craftarjs.setAutomaticAR(autoar);
-
-				    updateStats();
-				});
-
-				$("#stopar").on("click", function() {
-				    window.craftarjs.stopAR();
-
-				    arobject = false;
-				     updateStats();
-				});
+				// $("#stopar").on("click", function() {
+				//     window.craftarjs.stopAR();
+				//     arobject = false;
+				//      updateStats();
+				// });
 			});
 
 
@@ -163,27 +112,6 @@
     </head>
     <body onload="onLoad()">
       <img src="close.png" width="58px" height="58px" id="close"/>
-      <img src="camera.png" width="100px" height="100px" id="startFinding" style="position:absolute; margin:470px 0px 0px 60px "/>
-        <!-- <a href="#menuPopup" data-rel="popup"><button class="ui-btn ui-btn-inline ui-corner-all">+</button></a>
-
-        <div data-role="popup" id="menuPopup" class="ui-content">
-          <ul data-role="listview" data-inset="true">
-            <li>
-              <button id="startFinding" class="ui-btn ui-btn-inline">Start Finding</button>
-            </li>
-            <li>
-              <button id="stopFinding" class="ui-btn ui-btn-inline">Stop Finding</button>
-            </li>
-            <li>
-              <button id="restartCamera" class="ui-btn ui-btn-inline">Restart Camera</button>
-            </li>
-            <li>
-              <button id="triggerFocus" class="ui-btn ui-btn-inline">Trigger focus</button>
-            </li>
-            <li>
-              <button id="close" class="ui-btn ui-btn-inline">Close</button>
-            </li>
-          </ul>
-        </div> -->
+      <img src="camera.png" width="100px" height="100px" id="startFinding" style="position:relative; margin:470px 0px 0px 60px"/>
     </body>
 </html>
